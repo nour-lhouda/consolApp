@@ -1,0 +1,105 @@
+import 'package:groupProject/countries/turkey/adana.dart';
+import 'package:groupProject/countries/turkey/antalya.dart';
+import 'package:groupProject/countries/turkey/balikesir.dart';
+import 'package:groupProject/countries/turkey/bursa.dart';
+import 'package:groupProject/countries/turkey/canakkale.dart';
+import 'package:groupProject/countries/turkey/edirne.dart';
+import 'package:groupProject/countries/turkey/istanbul.dart';
+import 'package:groupProject/countries/turkey/izmir.dart';
+import 'package:groupProject/countries/turkey/kirklareli.dart';
+import 'package:groupProject/countries/turkey/kocaeli.dart';
+import 'package:groupProject/countries/turkey/mugla.dart';
+import 'package:groupProject/countries/turkey/sakarya.dart';
+import 'package:groupProject/countries/turkey/ankara.dart';
+import 'package:groupProject/countries/turkey/artvin.dart';
+import 'package:groupProject/countries/turkey/bartin.dart';
+import 'package:groupProject/countries/turkey/bayburt.dart';
+import 'package:groupProject/countries/turkey/bolu.dart';
+import 'package:groupProject/countries/turkey/corum.dart';
+import 'package:groupProject/countries/turkey/eskisehir.dart';
+import 'package:groupProject/countries/turkey/giresun.dart';
+import 'package:groupProject/countries/turkey/gumushane.dart';
+import 'package:groupProject/countries/turkey/karabuk.dart';
+import 'package:groupProject/countries/turkey/kastamonu.dart';
+import 'package:groupProject/countries/turkey/kayseri.dart';
+import 'package:groupProject/countries/turkey/konya.dart';
+import 'package:groupProject/countries/turkey/ordu.dart';
+import 'package:groupProject/countries/turkey/samsun.dart';
+import 'package:groupProject/countries/turkey/sivas.dart';
+import 'package:groupProject/countries/turkey/trabzon.dart';
+import 'package:groupProject/countries/morocco/agadir.dart';
+import 'package:groupProject/countries/morocco/casablanca.dart';
+import 'package:groupProject/countries/morocco/chefchaouen.dart';
+import 'package:groupProject/countries/morocco/essaouira.dart';
+import 'package:groupProject/countries/morocco/fes.dart';
+import 'package:groupProject/countries/morocco/marrakech.dart';
+import 'package:groupProject/countries/morocco/meknes.dart';
+import 'package:groupProject/countries/morocco/ouarzazate.dart';
+import 'package:groupProject/countries/morocco/rabat.dart';
+import 'package:groupProject/countries/morocco/tangier.dart';
+import 'package:groupProject/countries/england/birmingham.dart';
+import 'package:groupProject/countries/england/bournemouth.dart';
+import 'package:groupProject/countries/england/brighton.dart';
+import 'package:groupProject/countries/england/bristol.dart';
+import 'package:groupProject/countries/england/cambridge.dart';
+import 'package:groupProject/countries/england/liverpool.dart';
+import 'package:groupProject/countries/england/london.dart';
+import 'package:groupProject/countries/england/manchester.dart';
+import 'package:groupProject/countries/england/oxford.dart';
+//CITIES MAPS TO MATCH WITH CITY INFORMATIONS WITH OTHER MAPS
+var cities = {
+  1: {
+    "adana": adana,
+    "ankara": ankara,
+    "antalya": antalya,
+    "artvin": artvin,
+    "balikesir": balikesir,
+    "bartin": bartin,
+    "bayburt": bayburt,
+    "bolu": bolu,
+    "bursa": bursa,
+    "canakkale": canakkale,
+    "corum": corum,
+    "edirne": edirne,
+    "eskisehir": eskisehir,
+    "giresun": giresun,
+    "gumushane": gumushane,
+    "istanbul": istanbul,
+    "izmir": izmir,
+    "karabuk": karabuk,
+    "kastamonu": kastamonu,
+    "kayseri": kayseri,
+    "kirklareli": kirklareli,
+    "kocaeli": kocaeli,
+    "konya": konya,
+    "mugla": mugla,
+    "ordu": ordu,
+    "sakarya": sakarya,
+    "samsun": samsun,
+    "sivas": sivas,
+    "trabzon": trabzon,
+  },
+  2: {
+    "birmingham": birmingham,
+    "bournemouth": bournemouth,
+    "brighton": brighton,
+    "bristol": bristol,
+    "cambridge": cambridge,
+    "liverpool": liverpool,
+    "london": london,
+    "manchester": manchester,
+    "oxford": oxford,
+  },
+  3: {
+    "agadir": agadir,
+    "casablanca": casablanca,
+    "chefchaouen": chefchaouen,
+    "essaouira": essaouira,
+    "fes": fes,
+    "marrakech": marrakech,
+    "meknes": meknes,
+    "ouarzazate": ouarzazate,
+    "rabat": rabat,
+    "tangier": tangier,
+  },
+};
